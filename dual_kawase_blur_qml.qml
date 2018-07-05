@@ -11,16 +11,15 @@ ApplicationWindow {
 
     Item {
         // Variables
-        property int iteration: 4
-        property double offset: 5
+        property int iteration: 3
+        property double offset: 3
 
 
         // TODO: change this to whatever image you want to blur
         Image {
             id: sourceImage
             anchors.fill: parent
-            //source: "img/lenna.png"
-            source: "file:///C:/Users/Alex/Pictures/q.jpg"
+            source: "lenna.png"
             visible: false
         }
 

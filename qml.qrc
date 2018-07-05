@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>dual_kawase_blur_qml.qml</file>
+        <file>lenna.png</file>
+    </qresource>
+</RCC>
